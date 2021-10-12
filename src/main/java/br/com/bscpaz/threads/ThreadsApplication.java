@@ -55,7 +55,6 @@ public class ThreadsApplication {
 					isAllProcessedSucessfully = false;
 				}
 			}
-
 			System.out.println(String.format("\n\nIs All Processed Sucessfully = [%s]\n\n", isAllProcessedSucessfully));
 		} catch (Exception e) {
 			e.printStackTrace();
