@@ -42,7 +42,6 @@ public class DefendantHashRunnable implements Runnable {
         }
     }
 
-
     private String getHash(String name) throws Exception {
         /*
         //This simulates an error in some entity.
