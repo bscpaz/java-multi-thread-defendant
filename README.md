@@ -8,3 +8,8 @@
 * java.util.concurrent.CountDownLatch;
 * java.util.concurrent.ExecutorService;
 * java.util.concurrent.Executors.
+
+#### Attention points:
+
+* Runnable class cannot inject Repositories (@Autowired) in a Spring Boot Application
+  *  You got java.lang.NullPointerException.
