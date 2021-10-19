@@ -11,5 +11,4 @@
 
 #### Attention points:
 
-* Runnable class cannot inject Repositories interfaces (@Autowired) in a Spring Boot Application
-  *  You got java.lang.NullPointerException.
+* A regular Runnable class cannot inject Repositories interfaces (@Autowired) in a Spring Boot Application unless you make it as a @Component with @Scope("prototype").
